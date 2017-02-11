@@ -742,7 +742,11 @@ $settings['file_scan_ignore_directories'] = [
 
 
 $settings['install_profile'] = 'standard';
-$config_directories['sync'] = 'sites/default/files/config_1n8EA76nKYnk8lN_6PzM_lYftaqZds7-4eJuK_QOcVZt0ZlH3buyEWhavR60DY0KZqH6GDoziA/sync';
+
+/**
+* Configuration sync directory
+**/
+$config_directories['sync'] = '../config/sync';
 
 /**
  * Load local development override configuration, if available.
