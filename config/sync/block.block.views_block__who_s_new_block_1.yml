@@ -1,0 +1,24 @@
+uuid: f57acb4e-7544-4425-b568-27638b0318c3
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.who_s_new
+  module:
+    - views
+  theme:
+    - drupal8_zymphonies_theme
+id: views_block__who_s_new_block_1
+theme: drupal8_zymphonies_theme
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:who_s_new-block_1'
+settings:
+  id: 'views_block:who_s_new-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

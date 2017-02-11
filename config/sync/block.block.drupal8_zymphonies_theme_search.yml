@@ -1,0 +1,22 @@
+uuid: 8776cfb0-a91e-4dc3-b9c1-a91403c317ba
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - drupal8_zymphonies_theme
+_core:
+  default_config_hash: wBogGxijLiX3Gj0U9IH_rwuv0SqXH2fZPb8v3dRfPOI
+id: drupal8_zymphonies_theme_search
+theme: drupal8_zymphonies_theme
+region: footer_first
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }
